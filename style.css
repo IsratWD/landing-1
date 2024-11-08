@@ -1,0 +1,44 @@
+
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+}
+
+/* Hero Section */
+.hero {
+    height: 100vh;
+    background: linear-gradient(to right, rgba(0, 123, 255, 0.5), rgba(0, 0, 0, 0.5)),
+                url('img/WhatsApp\ Image\ 2024-10-19\ at\ 22.45.52_53df55b4.jpg') no-repeat center center/cover;
+    color: white;
+}
+
+.hero h1 span {
+    color: #0d6efd;
+}
+
+/* Navbar */
+.navbar {
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+}
+
+/* About Section */
+#about img {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+}
+
+/* Contact Form */
+form .form-control {
+    background-color: #333;
+    color: white;
+    border: 1px solid #555;
+}
+
+form .form-control:focus {
+    background-color: #675353;
+    color: white;
+}
